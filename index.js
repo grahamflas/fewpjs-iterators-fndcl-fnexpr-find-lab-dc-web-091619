@@ -66,12 +66,3 @@ const record = [
   { year: "1960", result: "N/A"}
 ]
 
-function superbowlWin(array) {
-  let win = array.find(el => el.result === "W")
-
-  if (win) {
-    return win.year
-  } else {
-    return undefined
-  }
-}
